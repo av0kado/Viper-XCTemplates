@@ -7,7 +7,7 @@ You can use terminal command, such as `mkdir -p ~/Library/Developer/Xcode/Templa
 2) Just copy `*.xctemplate` folders in created folder. To open this folder, you can use a terminal command `open ~/Library/Developer/Xcode/Templates/File\ Templates/Viper`
 
 ## Usage
-Usage is like `File -> New -> File...` or whatsoever. Just choose a template from the list (the section name will be the same as a folder name you [created](##Installing))
+Usage is like `File -> New -> File...` or whatsoever. Just choose a template from the list (the section name will be the same as a folder name you [created](#Installing))
 
 ## Requirements
 #### • XCode 9+
