@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Module name</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Required</key>
+			<true/>
+			<key>Description</key>
+			<string>The name of module to create</string>
+			<key>Default</key>
+			<string>ModuleName</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Create loader/configurator:</string>
+			<key>Identifier</key>
+			<string>configuratorType</string>
+			<key>Description</key>
+			<string>Create ModuleLoader, ModuleConfigurator or nothing</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<key>Module Loader</key>
+			<key>Values</key>
+			<array>
+				<string>None</string>
+				<string>Module Loader</string>
+				<string>Module Configurator</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

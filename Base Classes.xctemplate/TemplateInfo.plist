@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+		<string>com.apple.platform.macosx</string>
+		<string>com.apple.platform.watchos</string>
+		<string>com.apple.platform.appletvos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Classes:</string>
+			<key>Identifier</key>
+			<string>classes</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Description</key>
+			<string>Base classes to create</string>
+			<key>Default</key>
+			<string>Classes</string>
+			<key>Values</key>
+			<array>
+				<string>Classes</string>
+				<string>Extensions</string>
+				<string>Storyboards Factory</string>
+				<string>StringsHelper</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

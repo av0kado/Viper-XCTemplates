@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+		<string>com.apple.platform.macosx</string>
+		<string>com.apple.platform.watchos</string>
+		<string>com.apple.platform.appletvos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Cell name:</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Required</key>
+			<true/>
+			<key>Description</key>
+			<string>The name cell to create</string>
+			<key>Default</key>
+			<string>Name</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Cell type:</string>
+			<key>Identifier</key>
+			<string>cellType</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Description</key>
+			<string>The type of cell to create</string>
+			<key>Default</key>
+			<string>UITableViewCell</string>
+			<key>Values</key>
+			<array>
+				<string>UITableViewCell</string>
+				<string>UICollectionViewCell</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Include XIB file</string>
+			<key>Identifier</key>
+			<string>WithXIB</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Description</key>
+			<string>Create XIB file</string>
+			<key>Default</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>
