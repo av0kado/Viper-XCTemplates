@@ -3,6 +3,7 @@
 
 ## Installing
 1) Create a folder in `~/Library/Developer/Xcode/Templates/File Templates` (you may have to create `~/Library/Developer/Xcode/Templates/` folder first).
+
    You can use terminal command, such as `mkdir -p ~/Library/Developer/Xcode/Templates/File\ Templates/Viper` if you want to create folder named `Viper`. In this case, `Viper` name will be used for template section in XCode.
 2) Just copy `*.xctemplate` folders in created folder. To open this folder, you can use a terminal command `open ~/Library/Developer/Xcode/Templates/File\ Templates/Viper`
 
