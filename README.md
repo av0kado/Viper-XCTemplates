@@ -10,6 +10,6 @@ You can use terminal command, such as `mkdir -p ~/Library/Developer/Xcode/Templa
 Usage is like `File -> New -> File...` or whatsoever. Just choose a template from the list (the section name will be the same as a folder name you [created](#installing))
 
 ## Requirements
-**• XCode 9+**
-**• Swift 4**
-**• iOS 11+**
++ **XCode 9+**
++ **Swift 4**
++ **iOS 11+**
