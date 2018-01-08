@@ -20,7 +20,7 @@ class ___FILEBASENAMEASIDENTIFIER___: UIViewController, ___VARIABLE_productName:
     }
 
     override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
+        return .default
     }
     
     override var shouldAutorotate: Bool {
